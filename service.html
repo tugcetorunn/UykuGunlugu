@@ -63,7 +63,7 @@
                             <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
                             <a href="service.html" class="nav-item nav-link active">Hizmetler</a>
                             <a href="program.html" class="nav-item nav-link">Paketler</a>
-                            <a href="event.html" class="nav-item nav-link">Etkinlikler</a>
+                            <a href="event.html" class="nav-item nav-link" style="display: none;">Etkinlikler</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Diğer</a>
                                 <div class="dropdown-menu m-0 bg-secondary rounded-0">
@@ -97,12 +97,12 @@
         <!-- Page Header Start -->
         <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container text-center py-5">
-                <h1 class="display-2 text-white mb-4">Services</h1>
+                <h1 class="display-2 text-white mb-4">Hizmetler</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                        <li class="breadcrumb-item text-white" aria-current="page">Services</li>
+                        <li class="breadcrumb-item"><a href="#">Anasayfa</a></li>
+                        <li class="breadcrumb-item"><a href="#">Sayfalar</a></li>
+                        <li class="breadcrumb-item text-white" aria-current="page">Hizmetler</li>
                     </ol>
                 </nav>
             </div>
@@ -114,8 +114,8 @@
         <div class="container-fluid service py-5">
             <div class="container py-5">
                 <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
-                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">What We Do</h4>
-                    <h1 class="mb-5 display-3">Thanks To Get Started With Our School</h1>
+                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Hizmetlerimiz</h4>
+                    <h1 class="mb-5 display-3">Biz Ne Yapıyoruz</h1>
                 </div>
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
@@ -177,39 +177,55 @@
 
 
         <!-- Footer Start -->
+        <script type="text/javascript">
+            (function () {
+                var options = {
+                    whatsapp: "905529239679", // WhatsApp numarası
+                    call_to_action: "Merhaba, sorularınızı yazabilirsiniz.", // Görüntülenecek yazı
+                    position: "left", // Sağ taraf için 'right' sol taraf için 'left'
+                };
+                var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+                var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+                s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+                var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+            })();
+        </script>
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-4 col-xl-3">
                         <div class="footer-item">
-                            <h2 class="fw-bold mb-3"><span class="text-primary mb-0">Baby</span><span class="text-secondary">Care</span></h2>
-                            <p class="mb-4">There cursus massa at urnaaculis estieSed aliquamellus vitae ultrs condmentum leo massamollis its estiegittis miristum.</p>
+                            <h2 class="fw-bold mb-3"><span class="text-primary mb-0">Uyku</span><span class="text-secondary">Günlüğü</span></h2>
+                            <p class="mb-4">Uyku Günlüğü ile huzurlu geceler, mutlu sabahlar!</p>
+                            <p class="mb-4">Çocuğunuzun sağlıklı uyku alışkanlıkları geliştirmesine yardımcı olacak rehberler ve tavsiyeler için buradayız. Daha fazla bilgi için bizimle iletişime geçin.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 col-xl-3">
                         <div class="footer-item">
                             <div class="d-flex flex-column p-4 ps-5 text-dark border border-primary" 
                             style="border-radius: 50% 20% / 10% 40%;">
-                                <p>Monday: 8am to 5pm</p>
-                                <p>Tuesday: 8am to 5pm</p>
-                                <p>Wednes: 8am to 5pm</p>
-                                <p>Thursday: 8am to 5pm</p>
-                                <p>Friday: 8am to 5pm</p>
-                                <p>Saturday: 8am to 5pm</p>
-                                <p class="mb-0">Sunday: Closed</p>
+                                <p>Haftaiçi: 10:00 - 18:00</p>
+                                <p class="mb-0">Haftasonu: Kapalı</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 col-xl-3">
                         <div class="footer-item">
-                            <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">LOCATION</h4>
-                            <div class="d-flex flex-column align-items-start">
-                                <a href="" class="text-start rounded-0 text-body mb-4"><i class="fa fa-phone-alt text-primary me-2"></i> (+012) 3456 7890 123</a>
-                                <a href="" class="text-start rounded-0 text-body mb-4"><i class="fas fa-envelope text-primary me-2"></i> exampleemail@gmail.com</a>
-                                <a href="" class="text-start rounded-0 text-body mb-4"><i class="fa fa-clock text-primary me-2"></i> 26/7 Hours Service</a>
-                                <div class="footer-icon d-flex">
-                                    <a href="https://www.instagram.com/uykugunlugu" class="btn btn-primary btn-sm-square me-3 rounded-circle text-white"><i class="fab fa-instagram"></i></a>
+                            <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">İLETİŞİM</h4>
+                            <div class="d-flex flex-column align-items-start" style="gap: 15px;">
+                                <div style="display: flex; align-items: center;">
+                                    <i class="fa fa-phone-alt text-primary me-2"></i>
+                                    <span>+90 555 555 55 55</span>
                                 </div>
+                                <div>
+                                    <i class="fas fa-envelope text-primary me-2"></i> 
+                                    <span>email@example.com</span>
+                                </div>
+                                <div>
+                                    <i class="fa fa-clock text-primary me-2"></i>
+                                    <span>7/24 Hizmet</span>
+                                </div>
+                                <a href="https://www.instagram.com/uykugunlugu" target="_blank" class="text-start rounded-0 text-body mb-4"><i class="fab fa-instagram fa-lg text-primary me-2"></i>uykugunlugu</a>
                             </div>
                         </div>
                     </div>
@@ -224,7 +240,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Uyku Günlüğü</a>, Tüm hakları saklıdır.</span>
                     </div>
                     <div class="col-md-6 my-auto text-center text-md-end text-white">
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
