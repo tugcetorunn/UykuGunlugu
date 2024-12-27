@@ -153,10 +153,6 @@ h6,
     margin-right: 10px;
 }
 
-.topbar .top-link a:hover {
-    background: var(--bs-secondary) !important;
-}
-
 .topbar .top-link a:hover i {
     color: var(--bs-primary) !important;
 }
