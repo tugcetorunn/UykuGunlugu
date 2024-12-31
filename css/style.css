@@ -366,7 +366,7 @@ h6,
 
 /*** service Start ***/
 .service {
-    background: linear-gradient(rgba(255, 72, 128, 0.05), rgba(255, 72, 128, 0.2));
+    background: linear-gradient(rgba(192, 138, 77, 0.05), rgba(192, 138, 77, 0.2));
 }
 
 .service .service-item {
@@ -435,7 +435,7 @@ h6,
 
 /*** Programs Start ***/
 .program {
-    background: linear-gradient(rgba(255, 72, 128, 0.1), rgba(255, 72, 128, 0.1));
+    background: linear-gradient(rgba(192, 138, 77, 0.05), rgba(192, 138, 77, 0.2));
 }
 
 .program .program-item .program-img .program-rate {
@@ -508,7 +508,7 @@ h6,
     top: 0;
     left: 0;
     bottom: auto;
-    background: rgba(77, 101, 249, .7);
+    background: #f0ece2;
     border-radius: 10px;
     transition: 0.5s;
 }
