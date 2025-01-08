@@ -430,6 +430,17 @@ h6,
     background: var(--bs-primary) !important;
     color: var(--bs-white) !important;
 }
+
+.flex-container-me {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; /* Boşlukları ayarlar */
+    gap: 20px; /* Kutular arasındaki mesafe */
+}
+.service-item-me {
+    flex: 1; /* Her bir kutuyu eşit genişlikte yapar */
+    max-width: 18%; /* Genişliği sınırlar */
+}
 /*** Service End ***/
 
 
