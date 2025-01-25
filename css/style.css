@@ -585,7 +585,7 @@ h6,
     top: 0;
     left: 0;
     bottom: auto;
-    background: rgba(77, 101, 249, .7);
+    background: rgba(231, 224, 204, 0.7);
     border-radius: 10px 10px 0 0;
     transition: 0.5s;
 }
