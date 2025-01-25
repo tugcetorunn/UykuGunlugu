@@ -228,6 +228,12 @@ h6,
     }
 }
 
+@media (max-width: 1200px) { 
+    .d-flex.me-4 {
+        display: none !important;
+    }
+}
+
 .dropdown .dropdown-menu a:hover {
     background: var(--bs-secondary);
     color: var(--bs-primary);
