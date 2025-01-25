@@ -29,6 +29,13 @@
         return false;
     });
 
+    // Instagram button
+   $(window).scroll(function () {
+    if ($(this).scrollTop() > 300) {
+        $('.instaBtn').fadeIn('slow');
+    }
+    });
+
 
     // Testimonial carousel
 
