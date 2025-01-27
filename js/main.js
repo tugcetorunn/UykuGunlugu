@@ -105,7 +105,7 @@ const bodyMessage = `Name: ${fullname.value}<br> Email: ${email.value}<br> Messa
         Password : "67FFF2609B1882F3600A87B885A771B93942",
         To : 'info@uykugunlugu.com',
         From : "info@uykugunlugu.com",
-        Subject : "This is the subject",
+        Subject : "Uyku Günlüğü Website",
         Body : bodyMessage
     }).then(
       message => { if(message == "OK") {
