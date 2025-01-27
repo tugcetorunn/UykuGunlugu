@@ -99,12 +99,12 @@ function sendEmail() {
 const bodyMessage = `Name: ${fullname.value}<br> Email: ${email.value}<br> Message: ${message.value}`
 
     Email.send({
-        SecureToken : "9202c93d-d1ad-42a7-b20c-27b1231cdba6",
+        SecureToken : "ca62bcd1-1894-4681-9976-eefe3442e451",
         Host : "smtp.elasticemail.com",
-        Username : "ttugce74@gmail.com",
-        Password : "88D1484D9305109002EAF78191D7D8844149",
-        To : 'ttugce74@gmail.com',
-        From : "ttugce74@gmail.com",
+        Username : "info@uykugunlugu.com",
+        Password : "67FFF2609B1882F3600A87B885A771B93942",
+        To : 'info@uykugunlugu.com',
+        From : "info@uykugunlugu.com",
         Subject : "This is the subject",
         Body : bodyMessage
     }).then(
