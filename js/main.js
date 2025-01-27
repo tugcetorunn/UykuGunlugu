@@ -115,7 +115,9 @@ const bodyMessage = `Name: ${fullname.value}<br> Email: ${email.value}<br> Messa
             icon: "success"
           });
       }
-        
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("message").value = "";
       });
 }
 
